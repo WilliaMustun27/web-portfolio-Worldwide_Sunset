@@ -1,0 +1,139 @@
+
+html{
+    font-size: 15px;
+}
+header {
+    text-align: center;
+    padding: 20px 10px;
+  }
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+.row{
+    display: flex; 
+    flex-direction: column;
+}
+@media only screen and (min-width: 768px) {
+    .row {
+        flex-direction: row;
+    }   
+}
+@media only screen and (min-width: 1200px) {
+    .webpage-fit {
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
+.title{
+    text-align: center;
+    font-size: 30px;
+}
+.cover-image {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+  }
+  .image-responsissness {
+    max-width: 100%;
+    height: auto;
+  }
+.col{
+    flex-grow: 1;
+}
+.col1-3{
+    flex-grow: 1;
+}
+.col2-3{
+    flex-grow: 2;
+    }
+ 
+.cover{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.icons{
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.about{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.pictures{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.contact{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.picture1{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;;
+}
+.picture2{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.picture3{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.picture4{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.iconspecs{
+    width: 75;
+    height: 75;
+}
+.iconbox{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.aboutimagebox{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.abouttextbox{
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.contactrequestbox{
+    text-align: justify;
+}
+.textarea1 {
+    max-width: 100%;
+    height: auto;
+  }
+footer{
+    text-align: center;
+    padding-bottom: 20px;
+  }
+.contactboxformat{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;    
+}
